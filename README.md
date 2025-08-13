@@ -1,6 +1,6 @@
 # pneum-detect-xai
 Pneumonia Detection on Chest X Rays with Explainable AI (Grad-CAM)
-![Alt text for accessibility](outputs/heatmap_superimposed.jpg)
+![Alt text for accessibility](outputs/heatmap-superimposed.jpg)
 Disclaimer: The model, code or recommendations provided are for educational and research purposes only. It is not intended for clinical use in any capacity without further validation and regulatory approval.
 
 A deep learning model for pneumonia detection with visual explanations.
