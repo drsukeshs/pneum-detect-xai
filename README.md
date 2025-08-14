@@ -12,7 +12,14 @@ A deep learning model for pneumonia detection with visual explanations.
    This project uses a convolutional neural network (CNN) to detect pneumonia from chest X-ray images and explains its predictions using Grad-CAM heatmaps.
    As a doctor, my aim was to develop a tool that is sufficiently accurate, clinically relevant, and interpretable, with potential to aid screening in resource        poor medical settings.
    Exaplainable AI is particularly helpful in this context as it can enable the physician (or any other allied healthcare worker) to visually confirm the presence     of lesions in radiographic imaging of patients of suspected pneumonia. It also allows physicians to understand the models attention patterns, which can             contribute to constructive feedback for fine tuning of ML systems.
+   
+   Potential Clinical Use
 
+	-Triage Support: Assist radiologists by flagging likely pneumonia cases for priority review.
+
+	-Decision Aid: Provide probability scores and Grad-CAM heatmaps to support diagnostic reasoning.
+
+	-Workflow Integration: Deployable as a lightweight web app (e.g., via Gradio) for use in emergency or rural settings with limited radiology staff.
 3. Dataset
    
 	Source: Chest X-Ray Images (Pneumonia) - Kaggle - https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
